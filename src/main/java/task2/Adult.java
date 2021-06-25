@@ -13,7 +13,7 @@ public class Adult extends Person {
         this.hasLicense = hasLicense;
     }
 
-/*this is for the master*/
+
     public String getPhoneNumber() {
         return phoneNumber;
     }
