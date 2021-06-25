@@ -4,6 +4,8 @@ public class Adult extends Person {
     private String phoneNumber;
     private boolean hasLicense;
 
+
+/* this is a comment*/
     public Adult (String name, int age, String phoneNumber, boolean hasLicense ){
         setName(name);
         setAge(age);
@@ -26,5 +28,10 @@ public class Adult extends Person {
 
     public void setHasLicense(boolean hasLicense) {
         this.hasLicense = hasLicense;
+    }
+
+    @Override
+    public void setAge(int age) {
+        super.setAge(age);
     }
 }
